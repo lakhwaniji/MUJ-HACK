@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-transform: uppercase;
+}
+h2 {
+  padding-top: 0.5rem;
+}
+.register-article {
+  background-color: hsl(211, 27%, 70%);
+  border-radius: 1.5rem;
+  width: 50vh;
+  opacity: 0.7;
+}
+.form-control {
+  margin: 1rem;
+}
+.register {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: transparent;
+  width: 100%;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+}
+.submit-btn {
+  background: green;
+  width: 100%;
+  cursor: pointer;
+}
+/*
+=============== 
+Connect
+===============
+*/
+.connect {
+  min-height: 100vh;
+  position: relative;
+  padding: 10rem 0 5rem 0;
+}
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.connect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.7;
+  z-index: -1;
+}
+.connect {
+  display: grid;
+  place-items: center;
+}
+.video-banner .section-title {
+  margin-bottom: 2rem;
+}
+.video-banner {
+  background: var(--clr-primary-10);
+  padding: 3rem 5rem 12rem 5rem;
+  text-align: center;
+}
